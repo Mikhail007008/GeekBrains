@@ -1,10 +1,18 @@
 ﻿//Task 25
 
+<<<<<<< HEAD
 Console.Clear();
 Console.WriteLine("Введите первое число ");
 int A = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе число ");
 int B = Convert.ToInt32(Console.ReadLine());
+=======
+// Console.Clear();
+// Console.WriteLine("Введите первое число ");
+// int A = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите второе число ");
+// int B = Convert.ToInt32(Console.ReadLine());
+>>>>>>> f6acc6ec3b8754243ef5eeff01cd14465edeb5ee
 
 bool checkValues(int num1, int num2)
 {
@@ -24,10 +32,17 @@ int compute(int a, int b)
 	return result;
 }
 
+<<<<<<< HEAD
 if (checkValues(A, B))
 {
 	Console.WriteLine(compute(A, B));
 }
+=======
+// if (checkValues(A, B))
+// {
+// 	Console.WriteLine(compute(A, B));
+// }
+>>>>>>> f6acc6ec3b8754243ef5eeff01cd14465edeb5ee
 
 //Task 27
 
@@ -65,4 +80,8 @@ if (checkValues(A, B))
 // 	Console.WriteLine($"[{string.Join(", ", array)}]");
 // }
 
+<<<<<<< HEAD
 // func(size);
+=======
+func(size);
+>>>>>>> f6acc6ec3b8754243ef5eeff01cd14465edeb5ee
